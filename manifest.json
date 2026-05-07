@@ -1,0 +1,89 @@
+{
+    "name": "MedTerm - المنصة الطبية",
+    "short_name": "MedTerm",
+    "description": "منصة طبية شاملة تعمل بدون إنترنت، تحتوي على آلاف المصطلحات الطبية والأدوية والإجراءات",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#0f3b2c",
+    "background_color": "#f5f7f5",
+    "orientation": "portrait",
+    "lang": "ar",
+    "dir": "rtl",
+    "icons": [
+        {
+            "src": "icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "screenshot1.png",
+            "sizes": "1080x1920",
+            "type": "image/png",
+            "platform": "android"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "البحث",
+            "short_name": "بحث",
+            "description": "البحث في المصطلحات الطبية",
+            "url": "/?search",
+            "icons": [
+                {
+                    "src": "icon-search.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "سجل البحث",
+            "short_name": "سجل",
+            "description": "عرض سجل البحث السابق",
+            "url": "/?history",
+            "icons": [
+                {
+                    "src": "icon-history.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+}
