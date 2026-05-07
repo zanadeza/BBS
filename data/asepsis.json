@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "source": "Asepsis and Safety",
+    "category": "infection_control",
+    "version": "1.0.0"
+  },
+  "microorganisms": {
+    "types": [
+      {
+        "name": "Bacteria",
+        "ar": "بكتيريا",
+        "description": "Single-celled microorganisms",
+        "examples": ["Staphylococcus", "Streptococcus", "E. coli"]
+      },
+      {
+        "name": "Viruses",
+        "ar": "فيروسات",
+        "description": "The smallest microorganisms, require host cell",
+        "examples": ["Influenza", "HIV", "COVID-19"]
+      },
+      {
+        "name": "Fungi",
+        "ar": "فطريات",
+        "description": "Include yeasts and molds",
+        "examples": ["Candida", "Aspergillus"]
+      },
+      {
+        "name": "Protozoans",
+        "ar": "أوليات",
+        "description": "Single-celled animals",
+        "examples": ["Plasmodium (malaria)", "Giardia"]
+      },
+      {
+        "name": "Helminthes",
+        "ar": "ديدان",
+        "description": "Infectious worms",
+        "examples": ["Tapeworm", "Roundworm"]
+      }
+    ],
+    "classifications": {
+      "nonpathogens": "Normal flora, mutually beneficial or harmless",
+      "pathogens": "Cause infectious/communicable diseases",
+      "aerobic": "Require oxygen to live",
+      "anaerobic": "Live without oxygen",
+      "spores": "Temporarily inactive, resistant to heat and chemicals"
+    }
+  },
+  "chain_of_infection": {
+    "links": [
+      {
+        "link": "Infectious agent",
+        "ar": "العامل المعدي",
+        "example": "Bacteria, virus, fungus"
+      },
+      {
+        "link": "Reservoir",
+        "ar": "المستودع",
+        "example": "Humans, animals, equipment, water"
+      },
+      {
+        "link": "Portal of exit",
+        "ar": "منفذ الخروج",
+        "example": "Respiratory tract, GI tract, blood, skin"
+      },
+      {
+        "link": "Mode of transmission",
+        "ar": "طريقة الانتقال",
+        "example": "Contact, droplet, airborne, vehicle, vector"
+      },
+      {
+        "link": "Portal of entry",
+        "ar": "منفذ الدخول",
+        "example": "Mucous membranes, broken skin, respiratory tract"
+      },
+      {
+        "link": "Susceptible host",
+        "ar": "المضيف القابل للإصابة",
+        "example": "Immunocompromised, elderly, infants"
+      }
+    ],
+    "transmission_methods": {
+      "contact_direct": "Physical transfer from infected person (e.g., sexual contact)",
+      "contact_indirect": "Contact with contaminated object (e.g., instruments)",
+      "droplet": "Moist particles within 3 feet (e.g., sneezing, coughing)",
+      "airborne": "Suspended particles over distances >3 feet (e.g., spores)",
+      "vehicle": "Contaminated food, water, medications",
+      "vector": "Animal carriers (e.g., mosquitoes, ticks)"
+    }
+  },
+  "medical_asepsis": {
+    "definition": "Practices that confine or reduce numbers of microorganisms (clean technique)",
+    "principles": [
+      "Microorganisms exist everywhere except on sterilized equipment",
+      "Frequent hand hygiene is the best method to reduce transmission",
+      "Blood, body fluids are major reservoirs of microorganisms",
+      "PPE serves as barrier to microbial transmission",
+      "A clean environment reduces microorganisms",
+      "The floor, toilets, and sinks are more contaminated",
+      "Clean from cleaner to dirtier areas"
+    ],
+    "practices": [
+      "Antimicrobial agents",
+      "Hand hygiene",
+      "Wearing hospital garments",
+      "Confining soiled materials",
+      "Keeping environment clean"
+    ]
+  },
+  "surgical_asepsis": {
+    "definition": "Measures that render supplies and equipment totally free of microorganisms (sterile technique)",
+    "sterilization_methods": {
+      "physical": ["Radiation (UV)", "Boiling water (15 min)", "Free-flowing steam", "Dry heat (165-170°C for 3 hr)", "Steam under pressure (autoclave - most dependable)"],
+      "chemical": ["Gas sterilization", "Liquid chemicals"]
+    },
+    "principles": [
+      "Touch sterile item with sterile item only",
+      "Any partially unwrapped sterile package is contaminated",
+      "If in doubt about sterility, it is unsterile",
+      "Longer time since sterilization increases contamination risk",
+      "Expired sterile items are not sterile",
+      "Once opened, sterility lasts only a matter of time",
+      "Outer 1-inch margin of sterile field is contamination zone",
+      "Wet wrapper wicks microorganisms and causes contamination",
+      "Unattended sterile item is contaminated",
+      "Coughing/sneezing/talking excessively contaminates field",
+      "Reaching across sterile field causes contamination",
+      "Items below waist level are contaminated"
+    ]
+  },
+  "antimicrobial_agents": {
+    "soap": "Lowers surface tension of oil on skin",
+    "alcohol": "Injures protein and lipid structures (70% concentration)",
+    "iodine": "Damages cell membrane and disrupts enzymes (Betadine)",
+    "chlorine": "Interferes with microbial enzyme systems (bleach)",
+    "chlorhexidine": "Damages cell membrane (Hibiclens)",
+    "antiseptics": "Inhibit growth, do not kill microorganisms",
+    "disinfectants": "Destroy active microorganisms but not spores"
+  },
+  "hand_hygiene_comparison": {
+    "routine_hand_washing": {
+      "jewelry": "Plain wedding band may be worn",
+      "duration": "Minimum 15 seconds",
+      "hand_position": "Hands held lower than elbows",
+      "drying": "Paper towels, used to turn off faucet"
+    },
+    "surgical_hand_antisepsis": {
+      "jewelry": "All hand jewelry and watches removed",
+      "duration": "2-6 minutes",
+      "hand_position": "Hands held higher than elbows",
+      "drying": "Sterile towels",
+      "nail_cleaning": "Orange stick or nail cleaner"
+    }
+  },
+  "fire_safety": {
+    "RACE": {
+      "R": "Rescue clients in immediate vicinity",
+      "A": "Alarm - activate fire alarm",
+      "C": "Contain the fire (close doors)",
+      "E": "Extinguish (use fire extinguisher)"
+    },
+    "fire_extinguishers": {
+      "Class_A": "Water - paper, wood, cloth",
+      "Class_B": "CO2 - flammable liquids (gas, oil, grease)",
+      "Class_C": "Dry chemicals - electrical fires",
+      "Class_ABC": "Graphite - any fire"
+    }
+  }
+}
