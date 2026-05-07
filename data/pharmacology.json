@@ -1,0 +1,274 @@
+{
+  "metadata": {
+    "source": "Pharmacology Chapters 1-15",
+    "category": "pharmacology",
+    "version": "1.0.0"
+  },
+  "antibiotics": {
+    "penicillins": [
+      {
+        "name": "Penicillin G",
+        "classification": "Natural penicillin",
+        "mechanism": "Inhibits bacterial cell wall synthesis by binding PBPs",
+        "uses": ["Streptococcal infections", "Meningococcal infections", "Pneumococcal infections", "Prophylaxis of rheumatic fever"],
+        "route": "IM, IV",
+        "side_effects": ["Allergy", "Diarrhea", "Nausea"],
+        "contraindications": ["Penicillin allergy", "Cephalosporin allergy"]
+      },
+      {
+        "name": "Amoxicillin",
+        "classification": "Aminopenicillin (broad-spectrum)",
+        "mechanism": "Inhibits bacterial cell wall synthesis",
+        "uses": ["Otitis media", "Sinusitis", "UTI", "H. pylori"],
+        "route": "PO",
+        "dosage": "250-500 mg q8h",
+        "side_effects": ["Rash", "Diarrhea", "Nausea"]
+      },
+      {
+        "name": "Ampicillin",
+        "classification": "Aminopenicillin",
+        "uses": ["Enterococci", "E. coli", "H. influenzae", "Salmonella", "Meningitis"],
+        "route": "PO, IV, IM",
+        "dosage": "250-500 mg q6h"
+      },
+      {
+        "name": "Cloxacillin",
+        "classification": "Penicillinase-resistant (antistaphylococcal)",
+        "uses": ["Staphylococcal infections", "Osteomyelitis", "Pneumonia"],
+        "route": "PO, IM, IV",
+        "dosage": "250-500 mg q6h"
+      }
+    ],
+    "cephalosporins": {
+      "generations": [
+        {
+          "generation": "First generation",
+          "examples": ["Cefazolin", "Cephalexin", "Cefadroxil"],
+          "spectrum": "Gram-positive cocci"
+        },
+        {
+          "generation": "Second generation",
+          "examples": ["Cefaclor", "Cefuroxime", "Cefoxitin"],
+          "spectrum": "Broader than first generation"
+        },
+        {
+          "generation": "Third generation",
+          "examples": ["Ceftriaxone", "Cefotaxime", "Cefixime"],
+          "spectrum": "Broader spectrum, longer duration"
+        },
+        {
+          "generation": "Fourth generation",
+          "examples": ["Cefepime"],
+          "spectrum": "Effective against bacteria resistant to earlier generations"
+        },
+        {
+          "generation": "Fifth generation",
+          "examples": ["Ceftaroline"],
+          "spectrum": "Effective against MRSA"
+        }
+      ]
+    },
+    "carbapenems": [
+      {
+        "name": "Imipenem-cilastatin (Tienam)",
+        "spectrum": "Most gram-positive and gram-negative bacteria, including anaerobes",
+        "uses": ["Mixed infections", "Pseudomonas", "Serious infections"],
+        "route": "IV, IM",
+        "dosage": "250-500 mg q6-8h",
+        "side_effects": ["Nausea", "Vomiting", "Diarrhea", "Seizures"]
+      }
+    ],
+    "macrolides": [
+      {
+        "name": "Erythromycin",
+        "mechanism": "Inhibits bacterial protein synthesis (50S ribosomal subunit)",
+        "uses": ["Alternative to penicillin", "Respiratory infections", "Pertussis"],
+        "route": "PO, IV",
+        "dosage": "250 mg q6h",
+        "side_effects": ["GI upset", "Nausea", "Abdominal pain"]
+      },
+      {
+        "name": "Azithromycin (Zithromax)",
+        "duration": "Long-acting",
+        "dosage": "500 mg once, then 250 mg/day for 4 days"
+      },
+      {
+        "name": "Clarithromycin (Biaxin)",
+        "uses": ["Respiratory infections", "H. pylori", "Sinusitis"],
+        "dosage": "250-500 mg bid"
+      }
+    ],
+    "aminoglycosides": [
+      {
+        "name": "Gentamicin",
+        "mechanism": "Inhibits protein synthesis (30S ribosomal subunit)",
+        "spectrum": "Aerobic gram-negative bacteria",
+        "uses": ["Serious infections", "Neonatal sepsis", "Pseudomonas"],
+        "route": "IV, IM",
+        "warning": "Nephrotoxic, Ototoxic",
+        "dosage": "1.5-2 mg/kg loading, then 1-2 mg/kg bid-tid"
+      },
+      {
+        "name": "Amikacin",
+        "uses": ["Multidrug-resistant TB"]
+      }
+    ],
+    "tetracyclines": [
+      {
+        "name": "Tetracycline",
+        "mechanism": "Inhibits protein synthesis (30S ribosomal subunit)",
+        "uses": ["Rocky Mountain spotted fever", "Typhus", "Lyme disease", "Chlamydia", "H. pylori"],
+        "route": "PO",
+        "warning": "Not for children under 8 years, pregnancy (tooth discoloration)",
+        "food_interaction": "Avoid dairy products, antacids"
+      },
+      {
+        "name": "Doxycycline",
+        "dosage": "100 mg once or twice daily",
+        "note": "Safest for renal impairment"
+      }
+    ],
+    "fluoroquinolones": [
+      {
+        "name": "Ciprofloxacin (Cipro)",
+        "mechanism": "Inhibits DNA gyrase and topoisomerase IV",
+        "uses": ["UTI", "Sinusitis", "Pneumonia", "Infectious diarrhea"],
+        "route": "PO, IV",
+        "warning": "Tendonitis/tendon rupture (black box warning)",
+        "interactions": "Avoid antacids, dairy products"
+      },
+      {
+        "name": "Levofloxacin (Levaquin)",
+        "uses": ["UTI", "Pneumonia", "Sinusitis", "Prostatitis"]
+      }
+    ],
+    "sulfonamides": [
+      {
+        "name": "Trimethoprim-sulfamethoxazole (Bactrim, Septra)",
+        "mechanism": "Inhibits folic acid synthesis",
+        "uses": ["UTI", "Pneumocystis jiroveci pneumonia", "Shigella", "Traveler's diarrhea"],
+        "route": "PO, IV",
+        "side_effects": ["Rash", "Nausea", "Photosensitivity"]
+      }
+    ],
+    "urinary_antiseptics": [
+      {
+        "name": "Nitrofurantoin (Macrobid, Macrodantin)",
+        "uses": ["Uncomplicated UTI", "Prophylaxis of recurrent UTI"],
+        "mechanism": "Inhibits bacterial protein synthesis",
+        "note": "Contraindicated in renal impairment"
+      },
+      {
+        "name": "Phenazopyridine (Sedural)",
+        "use": "Urinary analgesic (pain relief in UTI)",
+        "note": "Turns urine orange-brown"
+      }
+    ],
+    "antituberculosis": [
+      {
+        "name": "Isoniazid (INH)",
+        "mechanism": "Inhibits mycolic acid synthesis",
+        "uses": ["TB treatment and prophylaxis"],
+        "warning": "Hepatotoxicity (black box warning)",
+        "side_effects": ["Peripheral neuropathy (give pyridoxine)", "Hepatitis"],
+        "dosage": "300 mg/day"
+      },
+      {
+        "name": "Rifampin (Rifadin)",
+        "mechanism": "Suppresses RNA synthesis",
+        "interactions": "CYP450 inducer (many drug interactions)",
+        "note": "Turns body fluids orange-red"
+      },
+      {
+        "name": "Ethambutol",
+        "side_effects": ["Optic neuritis", "Loss of color discrimination"]
+      },
+      {
+        "name": "Pyrazinamide (PZA)",
+        "warning": "Hepatotoxic"
+      }
+    ],
+    "antifungals": [
+      {
+        "name": "Amphotericin B (Fungizone)",
+        "class": "Polyene",
+        "mechanism": "Binds to ergosterol in fungal cell membranes",
+        "uses": ["Severe systemic mycoses"],
+        "warning": "Nephrotoxic (black box warning)",
+        "side_effects": ["Fever", "Chills", "Phlebitis", "Hypokalemia"]
+      },
+      {
+        "name": "Fluconazole (Diflucan)",
+        "class": "Triazole",
+        "uses": ["Candida", "Cryptococcal meningitis"],
+        "route": "PO, IV",
+        "dosage": "200-400 mg first day, then 100-200 mg/day"
+      },
+      {
+        "name": "Nystatin (Mycostatin)",
+        "class": "Polyene",
+        "uses": ["Oral candidiasis (thrush)", "Vaginal candidiasis", "Intestinal candidiasis"],
+        "route": "PO (non-absorbed), topical, vaginal",
+        "note": "Too toxic for systemic use"
+      }
+    ],
+    "antivirals": [
+      {
+        "name": "Acyclovir (Zovirax)",
+        "class": "Nucleoside analog",
+        "uses": ["HSV-1", "HSV-2", "VZV (high doses)", "CMV (higher doses)"],
+        "mechanism": "Inhibits viral DNA synthesis",
+        "route": "PO, IV, topical",
+        "side_effects": ["Nausea", "Nephrotoxicity (with IV)"]
+      },
+      {
+        "name": "Oseltamivir (Tamiflu)",
+        "class": "Neuraminidase inhibitor",
+        "uses": ["Influenza A and B"],
+        "note": "Start within 48 hours of symptoms"
+      }
+    ],
+    "antiprotozoans": [
+      {
+        "name": "Metronidazole (Flagyl)",
+        "uses": ["Amebiasis", "Giardiasis", "Trichomoniasis", "Anaerobic bacteria"],
+        "warning": "Carcinogenic in animals (black box warning)",
+        "interaction": "Avoid alcohol (disulfiram-like reaction)",
+        "side_effects": ["Metallic taste", "Nausea", "Dark urine"]
+      }
+    ],
+    "antihelminthics": [
+      {
+        "name": "Mebendazole (Vermox)",
+        "mechanism": "Inhibits glucose transport in parasites",
+        "uses": ["Roundworm", "Pinworm", "Hookworm"],
+        "dosage": "400 mg bid with meals"
+      }
+    ]
+  },
+  "pharmacotherapy_concepts": {
+    "pharmacokinetics": {
+      "absorption": "Movement from site of administration to bloodstream",
+      "distribution": "Transportation of drugs throughout body",
+      "metabolism": "Alters structure and function of drugs (primarily liver)",
+      "excretion": "Processes remove drugs from body (primarily kidneys)"
+    },
+    "pharmacodynamics": {
+      "agonist": "Mimics action of endogenous substances",
+      "antagonist": "Prevents action of endogenous substances",
+      "therapeutic_index": "LD50/ED50 (margin of safety)"
+    },
+    "drug_interactions": {
+      "additive": "Combined summation response",
+      "synergistic": "Enhanced response from combined drugs",
+      "antagonistic": "Diminished response occurs"
+    },
+    "pregnancy_categories": {
+      "A": "Safe - Controlled studies show no risk",
+      "B": "No evidence of risk in humans",
+      "C": "Risk cannot be ruled out",
+      "D": "Positive evidence of risk",
+      "X": "Contraindicated in pregnancy"
+    }
+  }
+}
