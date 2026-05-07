@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "source": "ANATOMY AND PHYSIOLOGY I Dr Luay",
+    "total_pages": 140,
+    "category": "anatomy",
+    "version": "1.0.0"
+  },
+  "chapters": {
+    "chapter1": {
+      "title": "Introduction to Human Anatomy and Physiology",
+      "title_ar": "مقدمة في تشريح ووظائف الأعضاء البشرية",
+      "topics": [
+        {
+          "term": "Anatomy",
+          "term_ar": "التشريح",
+          "definition": "The science of body structures and the relationships among them",
+          "definition_ar": "علم يدرس هياكل الجسم والعلاقات بينها",
+          "examples": ["Gross anatomy", "Microscopic anatomy (Histology)"]
+        },
+        {
+          "term": "Physiology",
+          "term_ar": "وظائف الأعضاء",
+          "definition": "The science of body function (how the body parts work)",
+          "definition_ar": "علم يدرس وظائف الجسم (كيف تعمل أجزاء الجسم)"
+        },
+        {
+          "term": "Levels of Structural Organization",
+          "term_ar": "مستويات التنظيم التركيبي",
+          "definition": "Atoms → Molecules → Cells → Tissues → Organs → Systems → Organism",
+          "definition_ar": "ذرات → جزيئات → خلايا → أنسجة → أعضاء → أجهزة → كائن حي"
+        }
+      ]
+    },
+    "chapter2": {
+      "title": "Cell Physiology",
+      "title_ar": "فيزيولوجيا الخلية",
+      "topics": [
+        {
+          "term": "Cell",
+          "term_ar": "خلية",
+          "definition": "The basic living structural and functional unit of the body",
+          "definition_ar": "وحدة البناء والوظيفة الأساسية الحية في الجسم",
+          "functions": ["Movement", "Conduction", "Absorption", "Secretion", "Excretion", "Respiration", "Reproduction"],
+          "functions_ar": ["حركة", "توصيل", "امتصاص", "إفراز", "إخراج", "تنفس", "تكاثر"]
+        },
+        {
+          "term": "Intracellular Fluid (ICF)",
+          "term_ar": "السائل داخل الخلايا",
+          "definition": "Approximately 2/3 of total body water",
+          "definition_ar": "حوالي ثلثي إجمالي ماء الجسم"
+        },
+        {
+          "term": "Extracellular Fluid (ECF)",
+          "term_ar": "السائل خارج الخلايا",
+          "definition": "Approximately 1/3 of total body water, includes interstitial fluid and intravascular fluid",
+          "definition_ar": "حوالي ثلث إجمالي ماء الجسم، يشمل السائل الخلالي والسائل داخل الأوعية"
+        }
+      ]
+    },
+    "chapter3": {
+      "title": "Tissues and Membranes",
+      "title_ar": "الأنسجة والأغشية",
+      "topics": [
+        {
+          "term": "Epithelial Tissue",
+          "term_ar": "النسيج الطلائي",
+          "definition": "Covers body surfaces and lines body cavities",
+          "definition_ar": "يغطي أسطح الجسم ويبطن تجاويفه",
+          "types": ["Simple squamous", "Stratified squamous", "Transitional", "Cuboidal", "Columnar", "Ciliated"]
+        },
+        {
+          "term": "Connective Tissue",
+          "term_ar": "النسيج الضام",
+          "definition": "Connects and holds structures together, provides support and protection",
+          "definition_ar": "يربط ويثبت الهياكل معاً، يوفر الدعم والحماية",
+          "types": ["Bone", "Blood", "Cartilage", "Fibrous CT", "Adipose", "Reticular"]
+        },
+        {
+          "term": "Muscle Tissue",
+          "term_ar": "النسيج العضلي",
+          "types": ["Skeletal", "Cardiac", "Smooth"]
+        },
+        {
+          "term": "Nervous Tissue",
+          "term_ar": "النسيج العصبي",
+          "definition": "Excitable tissue capable of sending and receiving electrical signals",
+          "definition_ar": "نسيج قابل للإثارة قادر على إرسال واستقبال الإشارات الكهربائية"
+        }
+      ]
+    },
+    "chapter4": {
+      "title": "The Integumentary System",
+      "title_ar": "الجهاز الجلدي",
+      "topics": [
+        {
+          "term": "Skin",
+          "term_ar": "الجلد",
+          "definition": "The largest organ in the body which covers the entire surface of the human body",
+          "definition_ar": "أكبر عضو في الجسم يغطي كامل سطح جسم الإنسان",
+          "layers": ["Epidermis", "Dermis", "Hypodermis"],
+          "functions": ["Protection", "Sensation", "Temperature Regulation", "Immunity", "Excretion", "Vitamin D synthesis"]
+        },
+        {
+          "term": "Epidermis",
+          "term_ar": "البشرة",
+          "layers": ["Stratum corneum", "Stratum lucidum", "Stratum granulosum", "Stratum spinosum", "Stratum basale"]
+        },
+        {
+          "term": "Melanin",
+          "term_ar": "الميلانين",
+          "definition": "Pigment that gives hair and skin its color and protects from UV radiation",
+          "definition_ar": "صبغة تعطي الشعر والجلد لونهما وتحمي من الأشعة فوق البنفسجية"
+        }
+      ]
+    },
+    "chapter5": {
+      "title": "The Skeletal System",
+      "title_ar": "الجهاز الهيكلي",
+      "topics": [
+        {
+          "term": "Bone",
+          "term_ar": "عظم",
+          "types": ["Long bones", "Short bones", "Flat bones", "Irregular bones", "Sesamoid bones"],
+          "functions": ["Support", "Protection", "Movement", "Storage", "Blood cell formation"]
+        },
+        {
+          "term": "Axial Skeleton",
+          "term_ar": "الهيكل المحوري",
+          "components": ["Skull (22 bones)", "Vertebral column (26 vertebrae)", "Rib cage (12 pairs)"]
+        },
+        {
+          "term": "Appendicular Skeleton",
+          "term_ar": "الهيكل الطرفي",
+          "components": ["Upper extremities (64 bones)", "Lower extremities (62 bones)", "Shoulder girdle", "Pelvic girdle"]
+        }
+      ]
+    },
+    "chapter6": {
+      "title": "The Muscular System",
+      "title_ar": "الجهاز العضلي",
+      "topics": [
+        {
+          "term": "Skeletal Muscle",
+          "term_ar": "العضلة الهيكلية",
+          "characteristics": ["Striated", "Voluntary", "Multinucleated"],
+          "functions": ["Body movement", "Posture", "Heat production"]
+        },
+        {
+          "term": "Sarcomere",
+          "term_ar": "القسيم العضلي",
+          "definition": "Structural and functional unit of muscle tissue",
+          "definition_ar": "الوحدة التركيبية والوظيفية للنسيج العضلي",
+          "components": ["Z-lines", "I-band", "A-band", "H-zone", "M-line"]
+        },
+        {
+          "term": "Neuromuscular Junction",
+          "term_ar": "الموصل العصبي العضلي",
+          "definition": "The synapse between a neuron and a muscle cell",
+          "definition_ar": "المشبك بين الخلية العصبية والخلية العضلية",
+          "neurotransmitter": "Acetylcholine"
+        }
+      ]
+    },
+    "chapter7": {
+      "title": "The Nervous System",
+      "title_ar": "الجهاز العصبي",
+      "topics": [
+        {
+          "term": "Central Nervous System (CNS)",
+          "term_ar": "الجهاز العصبي المركزي",
+          "components": ["Brain", "Spinal cord"]
+        },
+        {
+          "term": "Peripheral Nervous System (PNS)",
+          "term_ar": "الجهاز العصبي المحيطي",
+          "components": ["Cranial nerves (12 pairs)", "Spinal nerves (31 pairs)"]
+        },
+        {
+          "term": "Neuron",
+          "term_ar": "عصبون",
+          "parts": ["Cell body", "Dendrites", "Axon", "Axon terminals"],
+          "types": ["Multipolar", "Bipolar", "Unipolar"]
+        },
+        {
+          "term": "Synapse",
+          "term_ar": "مشبك",
+          "definition": "The junction where neurons communicate",
+          "definition_ar": "الوصلة التي تتواصل فيها الخلايا العصبية"
+        }
+      ]
+    }
+  },
+  "body_systems": {
+    "integumentary": "Protection, sensation, temperature regulation, immunity, excretion, vitamin D synthesis",
+    "skeletal": "Support, protection, movement, storage of calcium, blood cell formation",
+    "muscular": "Movement, posture, heat production",
+    "nervous": "Control and communication, sensory reception, motor response",
+    "endocrine": "Hormone production and regulation",
+    "cardiovascular": "Transport of oxygen, nutrients, hormones, and waste",
+    "respiratory": "Gas exchange (oxygen and carbon dioxide)",
+    "digestive": "Breakdown and absorption of nutrients",
+    "urinary": "Waste removal, fluid and electrolyte balance",
+    "reproductive": "Production of offspring"
+  },
+  "body_positions": [
+    {
+      "position": "Supine",
+      "ar": "استلقاء على الظهر",
+      "description": "Lying on back"
+    },
+    {
+      "position": "Prone",
+      "ar": "استلقاء على البطن",
+      "description": "Lying on abdomen"
+    },
+    {
+      "position": "Lateral",
+      "ar": "جانبي",
+      "description": "Side-lying position"
+    },
+    {
+      "position": "Sims'",
+      "ar": "وضعية سيمز",
+      "description": "Semi-prone position, lying on left side with right knee drawn up"
+    },
+    {
+      "position": "Fowler's",
+      "ar": "وضعية فاولر",
+      "description": "Semi-sitting position with head elevated 30-90 degrees"
+    }
+  ]
+}
