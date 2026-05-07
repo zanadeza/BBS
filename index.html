@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0f3b2c">
+    <title>منصة MedTerm الطبية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- واجهة الترحيب / Onboarding -->
+    <div id="onboarding" class="onboarding-overlay">
+        <div class="onboarding-container">
+            <div class="onboarding-slide active" data-slide="0">
+                <i class="fas fa-stethoscope onboarding-icon"></i>
+                <h2>مرحباً بك في منصة MedTerm</h2>
+                <p>منصتك الطبية الشاملة، تعمل بدون إنترنت وتحتوي على آلاف المصطلحات والأدوية والمعلومات الطبية.</p>
+            </div>
+            <div class="onboarding-slide" data-slide="1">
+                <i class="fas fa-search onboarding-icon"></i>
+                <h2>بحث ذكي</h2>
+                <p>ابحث عن أي مصطلح طبي، دواء، أو جملة وستحصل على ترجمة دقيقة، شرح مفصل، نطق صوتي، وأمثلة طبية.</p>
+            </div>
+            <div class="onboarding-slide" data-slide="2">
+                <i class="fas fa-moon onboarding-icon"></i>
+                <h2>خصائص متقدمة</h2>
+                <p>وضع ليلي ونهاري، دعم كامل للغتين العربية والإنجليزية، وحفظ تاريخ البحث الخاص بك.</p>
+            </div>
+            <div class="onboarding-buttons">
+                <button id="skip-onboarding" class="btn-outline">تخطي</button>
+                <button id="next-onboarding" class="btn-primary">التالي</button>
+            </div>
+            <div class="onboarding-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- الشريط الجانبي Sidebar (ثلاث نقاط) -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h3>القائمة</h3>
+            <button id="close-sidebar" class="close-sidebar"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="sidebar-menu">
+            <li><i class="fas fa-home"></i> <span>الرئيسية</span></li>
+            <li><i class="fas fa-history"></i> <span>سجل البحث</span></li>
+            <li><i class="fas fa-bookmark"></i> <span>المحفوظات</span></li>
+            <li><i class="fas fa-palette"></i> <span>المظهر</span>
+                <ul class="submenu">
+                    <li data-theme="light"><i class="fas fa-sun"></i> فاتح</li>
+                    <li data-theme="dark"><i class="fas fa-moon"></i> داكن</li>
+                    <li data-theme="medical"><i class="fas fa-leaf"></i> طبي (أخضر)</li>
+                </ul>
+            </li>
+            <li><i class="fas fa-language"></i> <span>اللغة</span>
+                <ul class="submenu">
+                    <li data-lang="ar">العربية</li>
+                    <li data-lang="en">English</li>
+                </ul>
+            </li>
+            <li><i class="fas fa-info-circle"></i> <span>حول التطبيق</span></li>
+            <li><i class="fas fa-sync-alt"></i> <span>التحقق من التحديث</span></li>
+        </ul>
+        <div class="sidebar-footer">
+            <small>MedTerm v1.0.0</small>
+        </div>
+    </div>
+
+    <!-- المحتوى الرئيسي -->
+    <div class="app-container">
+        <!-- شريط العنوان العلوي -->
+        <header class="app-header">
+            <button id="menu-btn" class="menu-btn"><i class="fas fa-bars"></i></button>
+            <div class="logo">
+                <i class="fas fa-notes-medical"></i>
+                <span>MedTerm</span>
+            </div>
+            <button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button>
+        </header>
+
+        <!-- شريط البحث -->
+        <div class="search-section">
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="search-input" placeholder="ابحث عن مصطلح طبي، دواء، أو جملة..." autocomplete="off">
+                <button id="voice-search-btn" class="voice-btn"><i class="fas fa-microphone"></i></button>
+                <button id="clear-search" class="clear-btn"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="ar">عربي</button>
+                <button class="lang-btn" data-lang="en">English</button>
+            </div>
+        </div>
+
+        <!-- لوحة التحكم السريعة -->
+        <div class="quick-actions">
+            <div class="quick-card" data-suggestion="fever">
+                <i class="fas fa-temperature-high"></i>
+                <span>حمى</span>
+            </div>
+            <div class="quick-card" data-suggestion="penicillin">
+                <i class="fas fa-capsules"></i>
+                <span>بنسلين</span>
+            </div>
+            <div class="quick-card" data-suggestion="heart">
+                <i class="fas fa-heartbeat"></i>
+                <span>القلب</span>
+            </div>
+            <div class="quick-card" data-suggestion="infection">
+                <i class="fas fa-biohazard"></i>
+                <span>عدوى</span>
+            </div>
+        </div>
+
+        <!-- منطقة عرض النتائج -->
+        <main id="results-area" class="results-area">
+            <div class="welcome-message">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>مرحباً بك في منصة MedTerm</h3>
+                <p>ابحث عن أي مصطلح طبي لتحصل على ترجمة، شرح، نطق، وأمثلة. يعمل التطبيق بدون إنترنت!</p>
+            </div>
+
+            <!-- قسم الاقتراحات -->
+            <div class="suggestions-section">
+                <h4><i class="fas fa-lightbulb"></i> مصطلحات مقترحة</h4>
+                <div class="suggestions-grid" id="suggestions-grid">
+                    <!-- ستظهر الاقتراحات تلقائياً -->
+                </div>
+            </div>
+        </main>
+
+        <!-- رسالة عدم وجود نتائج -->
+        <div id="no-results" class="no-results" style="display: none;">
+            <i class="fas fa-folder-open"></i>
+            <h3>لا توجد نتائج</h3>
+            <p>لم يتم العثور على معلومات عن "<span id="search-term"></span>"</p>
+            <p class="hint">جرب كلمة أخرى أو تحقق من الإملاء</p>
+        </div>
+
+        <!-- لوحة النتائج المفصلة -->
+        <div id="result-detail" class="result-detail" style="display: none;">
+            <!-- سيتم تعبئة المحتوى ديناميكياً -->
+        </div>
+    </div>
+
+    <!-- رسالة التحديث -->
+    <div id="update-toast" class="update-toast" style="display: none;">
+        <i class="fas fa-download"></i>
+        <span>يتوفر تحديث جديد! اضغط للتحديث.</span>
+        <button class="close-toast">&times;</button>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        // تسجيل Service Worker للتشغيل بدون إنترنت
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js').then(reg => {
+                    console.log('Service Worker مسجل بنجاح');
+                    // التحقق من التحديثات
+                    reg.addEventListener('updatefound', () => {
+                        const newWorker = reg.installing;
+                        newWorker.addEventListener('statechange', () => {
+                            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                document.getElementById('update-toast').style.display = 'flex';
+                            }
+                        });
+                    });
+                }).catch(err => console.log('Service Worker فشل التسجيل:', err));
+            });
+        }
+    </script>
+</body>
+</html>
