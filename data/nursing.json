@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "source": "Fundamental Lab Aqsa",
+    "category": "nursing_skills",
+    "version": "1.0.0"
+  },
+  "infection_control": {
+    "hand_hygiene": {
+      "hand_washing": {
+        "steps": [
+          "Remove jewelry, trim nails",
+          "Turn on water (warm water)",
+          "Wet hands, apply soap",
+          "Lather for 15 seconds, covering all surfaces",
+          "Rinse from wrists to fingers",
+          "Dry thoroughly with paper towel",
+          "Turn off faucet with paper towel"
+        ],
+        "indications": [
+          "Before and after patient contact",
+          "Before aseptic procedures",
+          "After body fluid exposure",
+          "After touching patient surroundings"
+        ]
+      },
+      "alcohol_based_hand_rub": {
+        "steps": [
+          "Dispense 3 mL into cupped palm",
+          "Rub over all hand and wrist surfaces",
+          "Continue for at least 15 seconds until dry"
+        ],
+        "note": "Not for visibly soiled hands"
+      }
+    },
+    "personal_protective_equipment": {
+      "donning_sequence": ["Gown", "Mask", "Goggles", "Gloves"],
+      "removing_sequence": ["Gloves (invert)", "Gown (turn inside out)", "Hand hygiene", "Goggles (touch earpieces only)", "Mask (touch ties only)", "Hand hygiene"],
+      "sterile_gloves": {
+        "steps": [
+          "Perform hand hygiene",
+          "Open outer wrapper",
+          "Open inner package with cuff end closest",
+          "Pick up glove at folded cuff edge",
+          "Insert fingers without touching outside",
+          "Insert gloved hand beneath folded edge of second glove"
+        ]
+      }
+    },
+    "sterile_field": {
+      "principles": [
+        "Touch sterile item with another sterile item only",
+        "Any partially unwrapped sterile package is contaminated",
+        "If in doubt about sterility, it is unsterile",
+        "Outer 1-inch margin of sterile area is contamination zone",
+        "Any opened sterile item left unattended is contaminated",
+        "Coughing/sneezing over sterile field causes contamination",
+        "Sterile items below waist level are contaminated"
+      ]
+    }
+  },
+  "bed_making": {
+    "unoccupied_bed": {
+      "steps": [
+        "Raise bed to high position",
+        "Remove soiled linen (roll soiled side in)",
+        "Place clean bottom sheet with center longitudinal fold",
+        "Secure with mitered corners",
+        "Add draw sheet if needed",
+        "Apply top sheet, blanket, spread",
+        "Tuck at foot with mitered corners",
+        "Fan-fold top linen toward foot",
+        "Place pillow with open end away from door"
+      ]
+    },
+    "occupied_bed": {
+      "steps": [
+        "Explain procedure to patient",
+        "Raise bed, cover patient with bath blanket",
+        "Lower side rail, roll patient toward opposite side",
+        "Roll soiled bottom sheet close to patient",
+        "Apply clean bottom sheet on vacant side",
+        "Raise side rail, move to opposite side",
+        "Roll patient over mound of sheets",
+        "Remove soiled linen",
+        "Pull clean sheet from under patient"
+      ]
+    }
+  },
+  "patient_positions": [
+    {
+      "position": "Supine",
+      "ar": "استلقاء على الظهر",
+      "description": "Lying on back",
+      "uses": ["General examination", "Rest"],
+      "risks": ["Foot drop", "Pressure on spine"]
+    },
+    {
+      "position": "Lateral",
+      "ar": "جانبي",
+      "description": "Side-lying position",
+      "uses": ["Pressure relief", "Back care", "Enemas"],
+      "support": "Support upper shoulder and arm"
+    },
+    {
+      "position": "Prone",
+      "ar": "على البطن",
+      "description": "Lying on abdomen",
+      "uses": ["Drainage", "Pressure ulcer prevention", "Respiratory conditions"]
+    },
+    {
+      "position": "Sims'",
+      "ar": "وضعية سيمز",
+      "description": "Semi-prone, lying on left side with right knee drawn up",
+      "uses": ["Rectal exams", "Vaginal exams", "Enemas"]
+    },
+    {
+      "position": "Fowler's",
+      "ar": "فاولر",
+      "description": "Semi-sitting with head elevated",
+      "variations": ["Low Fowler's (30°)", "Semi-Fowler's (45°)", "High Fowler's (60-90°)"],
+      "uses": ["Breathing difficulties", "Eating", "Talking", "Cardiac conditions"]
+    }
+  ],
+  "body_mechanics": {
+    "principles": [
+      "Use longest and strongest muscles of arms and legs",
+      "Keep feet apart for broad base of support",
+      "Bend knees and keep back straight when lifting",
+      "Hold objects close to body",
+      "Push, pull, or roll rather than lift when possible",
+      "Avoid twisting and stretching during work",
+      "Rest between periods of exertion"
+    ]
+  },
+  "hygiene_care": {
+    "bed_bath": {
+      "steps": [
+        "Provide privacy",
+        "Raise bed, cover with bath blanket",
+        "Wash eyes (inner to outer)",
+        "Wash face, arms, axillae, hands",
+        "Wash chest, abdomen",
+        "Wash legs, feet",
+        "Turn patient to side, wash back",
+        "Offer back rub",
+        "Wash buttocks and perineum (last)",
+        "Dry thoroughly, apply lotion",
+        "Apply clean gown"
+      ]
+    },
+    "oral_care": {
+      "conscious_patient": {
+        "steps": [
+          "Position patient sitting or side-lying",
+          "Place towel under chin",
+          "Brush all tooth surfaces",
+          "Offer water to rinse",
+          "Provide emesis basin for spitting",
+          "Apply lip balm"
+        ]
+      },
+      "unconscious_patient": {
+        "steps": [
+          "Position patient on side",
+          "Place towel under head",
+          "Brush all tooth surfaces carefully",
+          "Instill water and suction with bulb syringe",
+          "Never use water if patient cannot swallow",
+          "Monitor for aspiration"
+        ]
+      }
+    },
+    "denture_care": {
+      "steps": [
+        "Apply gauze to grasp denture",
+        "Remove with rocking motion",
+        "Place in denture cup",
+        "Brush all surfaces",
+        "Rinse thoroughly",
+        "Store in cold water in labeled cup",
+        "Reinsert if patient prefers"
+      ]
+    }
+  },
+  "documentation": {
+    "SOAPIER_charting": {
+      "S": "Subjective data (what the patient says)",
+      "O": "Objective data (vital signs, physical exam findings)",
+      "A": "Analysis of data (patient's status)",
+      "P": "Plan (stay the same or change?)",
+      "I": "Intervention (what nurse did)",
+      "E": "Evaluation (patient outcome)",
+      "R": "Revision (changes to care plan)"
+    },
+    "example_entries": [
+      {
+        "problem": "Elevated Body Temperature",
+        "entry": "S: 'I don't feel well', O: Temperature 39.3°C orally, A: Fever, P: Offer extra fluids and monitor, I: 750 mL fluids in 8 hours, temp q4h, E: Temperature reduced to 37.4°C, R: Increase fluid to 1000 mL per shift"
+      },
+      {
+        "problem": "Pain",
+        "entry": "S: 'Suture is very painful' (pain scale 6/10), O: Facial grimace, irritability, A: Acute pain post C-section, P: Patient will report pain relief to 4/10 within 8 hours, I: Quiet environment, deep breathing, support area, E: Goal met, pain decreased to 4/10"
+      }
+    ]
+  }
+}
